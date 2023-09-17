@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* .container-fluid{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+} */
+
+.hero{
+background-image: url('./images/pexels-pixabay-258045.jpg');
+height: 79vh;
+background-size:cover;
+background-position: center;
+animation: changeImage 25s linear infinite;
+}
+
+@keyframes changeImage{
+    0%{
+        background-image: url('./images/pexels-pixabay-258045.jpg');
+
+    }
+    25%{
+        background-image: url('./images/slider-image2.jpg');
+
+    }
+    50%{
+        background-image: url('./images/slider-imag3.jpeg');
+
+    }
+    75%{
+        background-image: url('./images/slider-image3.jpg');
+
+    }
+    100%{
+        background-image: url('./images/slider-image5.jpg');
+
+    }
+}
+
+.nav-bar{
+     background-color: #212529; 
+    
+    padding:10px;
+}
+
+
+
+.logo{
+    width: 100px;
+    height: 100px;
+}
+
+
+.parent{
+  
+    height: 500px;
+    width: 400px;
+}
+
+.main{
+     background-image: url('./images/pexels-pixabay-207779.jpg'); 
+    background-size: 260px 190px;  
+    /* background-size: 245px 180px;   */
+    width:260px;
+    height: 190px;
+    /* background-color: aqua; */
+    background-repeat: no-repeat;
+    background-position: center;
+    color:rgb(255, 255, 255);
+    border: 2px solid black;
+    margin-top:20px;
+    font-family: sans-serif; 
+    padding: 10px;
+    font-size: 12px;
+position: relative; 
+    }
+
+.text{
+    color: red;
+    background-color: rgb(71, 155, 71);
+    text-align: center;
+    
+}
+.H-text{
+    font-weight: bold;
+    font-style: italic;
+}
+
+.heading{
+     width: 160px; 
+    border-radius: 30px;
+    background-color: rgb(233, 76, 29);
+    text-align: center;
+    padding:5px;
+    margin-bottom: 5px;
+}
+
+.sub-heading{
+    width: 140px;
+    text-align: center;
+    background-color: rgb(233, 76, 29);
+    border-radius: 30px;
+margin-bottom: 5px;
+    padding:2px;
+    font-size: 11px;
+}
+
+.img1{
+    margin-left: auto;
+    width: 60px;
+    height: 60px;
+     left:70%;
+    top:23%;
+    position: absolute; 
+}  
+.img2{
+    margin-left: auto;
+    width: 60px;
+    height: 60px;
+     left:70%;
+    top:65%;
+    position: absolute; 
+
+}  
+label{
+    display: inline-block;
+    width: 200px;
+    text-align: center;
+
+}
+input[type="text"], input[type="tel"], input[type="date"], input[type="number"] {
+    display: inline-block;
+  margin: 10px;
+  padding:5px;
+  width: 160px;
+
+}
+input:focus{
+outline: none;
+border-color: rgb(17, 0, 255);
+}
+
+input[type="number"] {
+    display: inline-block;
+  margin: 10px;
+  padding:5px;
+
+}
+
+input[type="submit"]{
+ display: inline-block;
+  margin: 10px;
+  padding:5px;
+  margin-left: 100px;
+  text-align: center;
+  width: 200px;
+}
+
+.IDFormdiv{
+    padding: 10px;
+    background-color: rgb(15, 15, 58);
+    width: 500px;
+    color: #fff;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+.content-area{
+    background-color: rgb(97, 78, 78);
+}
